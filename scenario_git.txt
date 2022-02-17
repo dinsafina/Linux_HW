@@ -36,7 +36,7 @@ not completely",
   "project" : "site example.com",
   "version" : 1.0 ,
   "priority" : "medium",
-  "severity" "major",
+  "severity" : "major",
   "status" : "new" ,
   "author": "Safina_Dinara",
   "assigned_to": "test coordinator",
@@ -57,36 +57,36 @@ not completely",
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. === nano new.xml;
   <?xml version ="1.0"?>
   <user>
-   <first_name>Dinara<first_name>
-   <last_name>Safina<last_name>
-   <age>27<age> 
-   <pets>0<pets>
-   <salary>60000<salary>
-  <user>
+   <first_name>Dinara</first_name>
+   <last_name>Safina</last_name>
+   <age>27</age> 
+   <pets>0</pets>
+   <salary>60000</salary>
+  </user>
 
  28. Отправить изменения на внешний репозиторий. === git add new.xml; git commit -m "add information about user"; git push
  29. Создать файл preferences.xml === touch preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. === nano preferences.xml; 
  <?xml version="1.0"?>
   <preferences>
-   <movie>Titanic<movie/>
-   <series>Lie_to_me<series/>
-   <food>sushi<food/> 
-   <season>Spring<season/>
-   <country>Norway<country/>
+   <movie>Titanic</movie>
+   <series>Lie_to_me</series>
+   <food>sushi</food> 
+   <season>Spring</season>
+   <country>Norway</country>
   </preferences>
   
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML === touch skills.xml; nano skills.xml;
- <?xml version ="1.0"?>
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML === touch skills.xml; nano skills.xml;
+<?xml version ="1.0"?>
   <skills>
-   <1>Базовая теория</1>
-   <2>Мобильное тестирование</2>
-   <3>Основы_SQL</3> 
-   <4>Доступ к удаленным серверам</4>
-   <5>Работа с Postman</5>
+   <one>Базовая теория</one>
+   <two>Мобильное тестирование</two>
+   <three>Основы_SQL</three> 
+   <four>Доступ к удаленным серверам</four>
+   <five>Работа с Postman</five>
   </skills>
 
- 32. Сделать коммит в одну строку. === git commit -am "add skills.xml file"
+ 32. Сделать коммит в одну строку. === git add . | git commit -a "add skills.xml file"
  33. Отправить сразу 2 файла на внешний репозиторий. === git push
  34. На веб интерфейсе создать файл bug_report.xml. === Add file -> create new file
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit new file
@@ -143,7 +143,7 @@ not completely",
 5. Структуры HTTP запросов и ответов.
 6. Что такое JSON, XML. Их структура.
 
- 12. Сделать коммит в одну строку. === git commit -am "add skills.txt file"
+ 12. Сделать коммит в одну строку. === git add . | git commit -a "add skills.txt file"
  13. Отправить сразу 2 файла на внешний репозиторий. === git push
  14. На веб интерфейсе создать файл bug_report.txt. === Add file -> create new file
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
