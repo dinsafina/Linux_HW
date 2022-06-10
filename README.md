@@ -50,7 +50,7 @@ mv file1.txt file2.txt com1
 
 Команда: `bash dz_Linux.sh`
 
-## **Задание по GIT - [Git_HW_1.txt](https://github.com/dinsafina/Linux_HW/blob/main/scenario_git.txt)**
+## **Задание по GIT - [scenario_git.txt](https://github.com/dinsafina/Linux_HW/blob/main/scenario_git.txt)**
 
 ---
  1. Создайте текстоовый файл как в первом ДЗ по Terminal.
