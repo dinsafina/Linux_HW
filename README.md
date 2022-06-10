@@ -53,7 +53,7 @@ mv file1.txt file2.txt com1
 ## **Задание по GIT - [scenario_git.txt](https://github.com/dinsafina/Linux_HW/blob/main/scenario_git.txt)**
 
 ---
- 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 1. Создайте текстовый файл как в первом ДЗ по Terminal.
  2. Сценарий перенесите в этот файл.
  3. Напротив каждого действия - напишите команду в GitBash
  
