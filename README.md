@@ -58,13 +58,20 @@ mv file1.txt file2.txt com1
  3. Напротив каждого действия - напишите команду в GitBash
  
  **JSON**
+
  4. Создать внешний репозиторий c названием JSON. === `в github страница "Create a new repository"`
+ 
  5. Клонировать репозиторий JSON на локальный компьютер. === `git clone git@github.com:dinsafina/JSON.git`
- 6. Внутри локального JSON создать файл “new.json”. === `touch new.json`
- 7. Добавить файл под гит. === `git add new.json` 
- 8. Закоммитить файл. === `git commit -m "add new.json file"`
- 9. Отправить файл на внешний GitHub репозиторий. === `git push`
- 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. === `nano new.json; 
+
+6. Внутри локального JSON создать файл “new.json”. === `touch new.json`
+
+7. Добавить файл под гит. === `git add new.json` 
+
+8. Закоммитить файл. === `git commit -m "add new.json file"`
+
+9. Отправить файл на внешний GitHub репозиторий. === `git push`
+
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. === `nano new.json; 
   { 
 	"first_name": "Dinara",
         "last_name":"Safina",
@@ -72,9 +79,12 @@ mv file1.txt file2.txt com1
         "pets": 0,
         "desired_salary": 60000
    }`
+ 
  11. Отправить изменения на внешний репозиторий. === `git add new.json; git commit -m "add information about user";  git push`
- 12. Создать файл preferences.json === `touch preferences.json`
- 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. === `nano preferences.json;    
+
+12. Создать файл preferences.json === `touch preferences.json`
+
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. === `nano preferences.json;    
  {
 	"movie": "Titanic",
 	"series" : "Lie to me",
